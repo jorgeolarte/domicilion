@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+click = "==6.7"
+Flask = "==1.0.2"
+gunicorn = "==19.9.0"
+itsdangerous = "==0.24"
+"Jinja2" = "==2.10"
+MarkupSafe = "==1.0"
+Werkzeug = "==0.14.1"
+certifi = "==2018.8.13"
+chardet = "==3.0.4"
+idna = "==2.7"
+pathlib = "==1.0.1"
+pipenv = "==2018.7.1"
+pymongo = "==3.7.1"
+requests = "==2.19.1"
+"urllib3" = "==1.23"
+virtualenv = "==16.0.0"
+virtualenv-clone = "==0.3.0"
+
+[requires]
+python_version = "2.7"
